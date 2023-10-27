@@ -4,4 +4,6 @@ function tocaSomPom() {
 
 document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
-function tocaSomClap
+function tocaSomClap() {
+    document.querySelector('#tocaSomclap').play();
+}
